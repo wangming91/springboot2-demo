@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d080af1-c10e-458b-a967-bb43d6d54860" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/bootstrap/EnableAutoConfigurationBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/config/MyEurekaServerMarkerAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/autoconfigration/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/bootstrap/CalculateBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/bootstrap/CalculateBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/bootstrap/MyOnConditionPropertyBootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/bootstrap/MyOnConditionPropertyBootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/condition/MyOnConditionProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/autoconfigration/src/main/java/com/wangming/condition/MyOnConditionProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/CalculateBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/CalculateBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/MyOnConditionPropertyBootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/MyOnConditionPropertyBootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/condition/MyOnConditionProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/condition/MyOnConditionProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/AutoConfigrationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/annotation/MyEnableEurekaServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/annotation/MyEurekaImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/CalculateBootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/EnableAutoConfigurationBootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/MyEurekaServerBootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/bootstrap/MyOnConditionPropertyBootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/condition/MyConditionOnProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/condition/MyOnConditionProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/config/MyEurekaServerMarkerAutoConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/config/MyEurekaServerMarkerConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/service/CalculateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/service/impl/Java7CalculateServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoconfigration/target/classes/com/wangming/service/impl/Java8CalculateServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/autoconfigration/src/main/resources/META-INF/spring.factories">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -141,7 +146,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="21" />
     <option name="width" value="1383" />
@@ -169,144 +174,6 @@
               <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
               <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangming" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangming" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangming" type="462c0819:PsiDirectoryNode" />
-              <item name="condition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangming" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangming" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangming" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot2-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.0.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-autoconfigure-2.0.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
-              <item name="condition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -473,16 +340,15 @@
       <option name="presentableId" value="Default" />
       <updated>1537861670696</updated>
       <workItem from="1537861674771" duration="4352000" />
-      <workItem from="1537927076249" duration="17352000" />
+      <workItem from="1537927076249" duration="18030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21704000" />
+    <option name="totallyTimeSpent" value="22382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -499,7 +365,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37348422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37348422" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.78494626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -507,7 +373,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.19175628" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.19175628" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -917,7 +783,7 @@
     <entry file="file://$PROJECT_DIR$/autoconfigration/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
