@@ -1,7 +1,6 @@
 package com.wangming.bootstrap;
 
 import com.wangming.condition.MyConditionOnProperty;
-import com.wangming.service.CalculateService;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -12,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 public class MyOnConditionPropertyBootstrap {
 
     @Bean(name = "hi")
-    @MyConditionOnProperty(prefix = "pass")
+    @MyConditionOnProperty(prefix = "pa1ss")
     public String hello() {
         return "hello";
     }

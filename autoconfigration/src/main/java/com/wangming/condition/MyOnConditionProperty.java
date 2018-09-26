@@ -8,7 +8,8 @@ import java.util.Map;
 public class MyOnConditionProperty implements org.springframework.context.annotation.Condition {
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
-        Map<String, Object> annotationAttributes = metadata.getAnnotationAttributes(MyConditionOnProperty.class.getName());
+        Map<String, Object> annotationAttributes = metadata
+                .getAnnotationAttributes(MyConditionOnProperty.class.getName());
 
         String prefix = String.valueOf(annotationAttributes.get("prefix"));
 
