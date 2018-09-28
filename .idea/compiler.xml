@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="autoconfigration" />
+        <module name="springapplication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="autoconfigration" target="1.8" />
+      <module name="springapplication" target="1.8" />
       <module name="springboot2-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

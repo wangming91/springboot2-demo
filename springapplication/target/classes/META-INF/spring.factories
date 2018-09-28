@@ -1,0 +1,3 @@
+# ApplicationListener  µœ÷≈‰÷√
+#org.springframework.context.ApplicationListener=\
+#com.wangming.listener.MyRegisApplicationListenertener
