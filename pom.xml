@@ -9,6 +9,7 @@
     <modules>
         <module>autoconfigration</module>
         <module>springapplication</module>
+        <module>webmvc</module>
     </modules>
     <packaging>pom</packaging>
 
