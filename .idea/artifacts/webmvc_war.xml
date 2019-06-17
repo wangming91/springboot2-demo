@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webmvc:war">
+    <output-path>D:/doc/tools/tomcat/apache-tomcat-8.5.34/webapps/webmvc</output-path>
+    <root id="archive" name="webmvc-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="webmvc:war exploded" />
+    </root>
+  </artifact>
+</component>

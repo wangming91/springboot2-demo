@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/autoconfigration/autoconfigration.iml" filepath="$PROJECT_DIR$/autoconfigration/autoconfigration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springapplication/springapplication.iml" filepath="$PROJECT_DIR$/springapplication/springapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot2-demo.iml" filepath="$PROJECT_DIR$/springboot2-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmvc/webmvc.iml" filepath="$PROJECT_DIR$/webmvc/webmvc.iml" />
     </modules>
   </component>
 </project>

@@ -8,6 +8,8 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>autoconfigration</module>
+        <module>springapplication</module>
+        <module>webmvc</module>
     </modules>
     <packaging>pom</packaging>
 
